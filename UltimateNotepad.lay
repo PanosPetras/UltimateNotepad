@@ -1,0 +1,17 @@
+LAYOUT(NotepadLayout, 600, 400)
+	ITEM(Upp::LineEdit, TextLines, SetFont(Monospace()).HSizePosZ(0, 0).VSizePosZ(20, 20))
+	ITEM(Upp::Button, Savebtn, SetLabel(t_("Save")).LeftPosZ(120, 60).TopPosZ(0, 20))
+	ITEM(Upp::Button, Openbtn, SetLabel(t_("Open")).LeftPosZ(60, 60).TopPosZ(0, 20))
+	ITEM(Upp::Button, Quitbtn, SetLabel(t_("Quit")).LeftPosZ(240, 60).TopPosZ(0, 20))
+	ITEM(Upp::Button, SaveAsbtn, SetLabel(t_("Save as")).LeftPosZ(180, 60).TopPosZ(0, 20))
+	ITEM(Upp::Button, Newbtn, SetLabel(t_("New")).LeftPosZ(0, 60).TopPosZ(0, 20))
+	ITEM(Upp::StaticText, dv___6, SetText(t_("Active file:")).LeftPosZ(0, 52).BottomPosZ(0, 20))
+	ITEM(Upp::Label, FileLabel, LeftPosZ(52, 352).BottomPosZ(0, 20))
+	ITEM(Upp::StaticText, dv___8, SetText(t_("Ln:")).RightPosZ(88, 16).BottomPosZ(1, 19))
+	ITEM(Upp::StaticText, dv___9, SetText(t_("Col:")).RightPosZ(36, 20).BottomPosZ(1, 19))
+	ITEM(Upp::Label, LineLabel, RightPosZ(56, 32).BottomPosZ(1, 19))
+	ITEM(Upp::Label, ColumnLabel, RightPosZ(8, 28).BottomPosZ(1, 19))
+	ITEM(Upp::StaticText, dv___12, SetText(t_("Characters:")).RightPosZ(140, 56).BottomPosZ(1, 19))
+	ITEM(Upp::Label, CharLabel, RightPosZ(104, 36).BottomPosZ(1, 19))
+END_LAYOUT
+

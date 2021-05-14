@@ -1,0 +1,14 @@
+description "A text writer application\377";
+
+uses
+	CtrlLib;
+
+file
+	UltimateNotepad.h,
+	UltimateNotepad.cpp,
+	main.cpp,
+	UltimateNotepad.lay;
+
+mainconfig
+	"" = "GUI";
+
