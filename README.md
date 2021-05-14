@@ -2,4 +2,4 @@
 
 A simple text editor made using the Ultimate++ framework.
 
-The executable is also available
+The code is compiled in UltimateNotepad.exe
